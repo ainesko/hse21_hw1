@@ -16,3 +16,10 @@ random seed = 427
 ```
 ln -s /usr/share/data-minor-bioinf/assembly/oil_R1.fastq
 ```
+
+```
+mkdir data
+cd data
+ln --symbolic /usr/share/data-minor-bioinf/assembly/oil* .
+
+```
